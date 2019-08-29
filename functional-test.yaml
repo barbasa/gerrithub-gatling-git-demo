@@ -1,0 +1,6 @@
+functional-test:
+ build: .
+ environment:
+   - JAVA_OPTS=-DbaseUrl=${TEST_URL} -Dusername=${TEST_USER} -Dpassword=${TEST_PWD}
+ volumes:
+    - ./results:/opt/gatling/results

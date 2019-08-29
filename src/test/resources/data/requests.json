@@ -1,0 +1,14 @@
+[
+  {
+    "url": "ssh://barbasa@review.gerrithub.io:29418/barbasa/test-gatling",
+    "cmd": "clone"
+  },
+  {
+    "url": "ssh://barbasa@review.gerrithub.io:29418/GerritForge/gatling-git",
+    "cmd": "clone"
+  },
+  {
+    "url": "ssh://barbasa@review.gerrithub.io:29418/GerritForge/gerrit-etl",
+    "cmd": "clone"
+  }
+]

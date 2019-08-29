@@ -1,0 +1,23 @@
+.idea/
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+### Scala ###
+*.class
+*.log
+target
+project/target
+project/project
+sbt-cache
+target
+
+# Gatling results directory
+results
+test-data

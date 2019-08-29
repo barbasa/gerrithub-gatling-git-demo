@@ -1,0 +1,12 @@
+functional-test-login:
+  extends:
+    file: functional-test.yaml
+    service: functional-test
+  command: '-s functional.Login'
+
+functional-test-wip:
+  extends:
+    file: functional-test.yaml
+    service: functional-test
+  command: '-s functional.WIP'
+
